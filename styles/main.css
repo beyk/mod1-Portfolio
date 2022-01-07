@@ -1,0 +1,144 @@
+body {
+  background-color: #fdfafa;
+  align-items: center;
+}
+
+/* container include all other parts */
+.container {
+  background-color: #fff;
+  position: absolute;
+  width: 375px;
+  height: 518px;
+  left: 0;
+  top: 0;
+  margin: 0 500px 0 300px;
+  padding-left: 24px;
+  border-bottom-left-radius: 90px;
+}
+
+/* Header include my-logo and menu */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* My logo style */
+.mylogo {
+  position: static;
+  width: 76px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+}
+
+nav {
+  margin-right: 20px;
+}
+
+/* Hero include  top images, text and bottom images */
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+/* start top images */
+#rect6 {
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+
+#ellipse11 {
+  position: absolute;
+  left: 0;
+  top: 110px;
+}
+
+#rect7 {
+  position: absolute;
+  left: 127px;
+  top: 110px;
+}
+
+#ellipse5 {
+  position: absolute;
+  left: 127px;
+  top: 120px;
+}
+
+#ellipse8 {
+  position: absolute;
+  left: 214px;
+  top: 80px;
+}
+
+#rect4 {
+  position: absolute;
+  right: 0;
+  top: 110px;
+}
+
+#ellipse3 {
+  position: absolute;
+  right: 0;
+  top: 145px;
+}
+
+/* End of top images */
+
+/* our text */
+.hero-text {
+  margin-top: 150px;
+}
+
+.hero-text a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.hero-socialmedia-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* start bottom images */
+#ellipse12 {
+  position: absolute;
+  left: 341.76px;
+  top: 400px;
+}
+
+#ellipse13 {
+  position: absolute;
+  left: 339px;
+  top: 412px;
+}
+
+#ellipse15 {
+  position: absolute;
+  left: 53px;
+  top: 445px;
+}
+
+#rect5 {
+  position: absolute;
+  left: 153px;
+  top: 445px;
+}
+
+#ellipse4 {
+  position: absolute;
+  left: 203px;
+  top: 448px;
+}
