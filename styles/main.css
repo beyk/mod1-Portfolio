@@ -1,6 +1,7 @@
 body {
   background-color: #fdfafa;
   align-items: center;
+  font-family: Poppins, sans-serif;
 }
 
 /* container include all other parts */
@@ -69,6 +70,7 @@ nav {
 
 .hero-text {
   margin-top: 130px;
+  color: #172B4D;
 }
 
 .hero-text a {
