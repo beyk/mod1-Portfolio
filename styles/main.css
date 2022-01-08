@@ -8,12 +8,22 @@ body {
   background-color: #fff;
   position: absolute;
   width: 375px;
-  height: 518px;
+  height: 618px;
   left: 0;
   top: 0;
   margin: 0 500px 0 300px;
-  padding-left: 24px;
   border-bottom-left-radius: 90px;
+}
+
+section {
+  background: url("/images/bg-shapes.png");
+  padding-left: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 0 0 0 100px;
+  height: 600px;
 }
 
 /* Header include my-logo and menu */
@@ -38,6 +48,7 @@ header {
   align-items: center;
   text-align: center;
   color: #6070ff;
+  padding-left: 20px;
 }
 
 nav {
@@ -50,54 +61,14 @@ nav {
   flex-direction: column;
 }
 
-/* start top images */
-#rect6 {
-  position: absolute;
-  left: 0;
-  top: 80px;
-}
-
-#ellipse11 {
-  position: absolute;
-  left: 0;
-  top: 110px;
-}
-
-#rect7 {
-  position: absolute;
-  left: 127px;
-  top: 110px;
-}
-
-#ellipse5 {
-  position: absolute;
-  left: 127px;
-  top: 120px;
-}
-
-#ellipse8 {
-  position: absolute;
-  left: 214px;
-  top: 80px;
-}
-
-#rect4 {
-  position: absolute;
-  right: 0;
-  top: 110px;
-}
-
-#ellipse3 {
-  position: absolute;
-  right: 0;
-  top: 145px;
-}
-
-/* End of top images */
-
 /* our text */
+.hero-text h1 {
+  font-size: 40px;
+  line-height: 52px;
+}
+
 .hero-text {
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 .hero-text a {
@@ -106,39 +77,11 @@ nav {
   font-size: 16px;
 }
 
-.hero-socialmedia-icons {
+.hero-socialmedia-icons ul {
   display: flex;
-  gap: 15px;
+  gap: 10px;
   margin-top: 10px;
-}
-
-/* start bottom images */
-#ellipse12 {
-  position: absolute;
-  left: 341.76px;
-  top: 400px;
-}
-
-#ellipse13 {
-  position: absolute;
-  left: 339px;
-  top: 412px;
-}
-
-#ellipse15 {
-  position: absolute;
-  left: 53px;
-  top: 445px;
-}
-
-#rect5 {
-  position: absolute;
-  left: 153px;
-  top: 445px;
-}
-
-#ellipse4 {
-  position: absolute;
-  left: 203px;
-  top: 448px;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
 }
