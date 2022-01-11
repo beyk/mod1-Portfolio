@@ -17,7 +17,7 @@ body {
 }
 
 section {
-  background: url("/images/bg-shapes.png");
+  background: url("../images/bg-shapes.png");
   padding-left: 20px;
   background-size: cover;
   background-repeat: no-repeat;
